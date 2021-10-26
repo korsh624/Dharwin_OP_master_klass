@@ -9,9 +9,9 @@ cv2.namedWindow( "result" )
 cv2.createTrackbar('minb', 'result', 0, 255, nothing)
 cv2.createTrackbar('ming', 'result', 0, 255, nothing)
 cv2.createTrackbar('minr', 'result', 0, 255, nothing)
-cv2.createTrackbar('maxb', 'result', 255, 0, nothing)
-cv2.createTrackbar('maxg', 'result', 255, 0, nothing)
-cv2.createTrackbar('maxr', 'result', 255, 0, nothing)
+cv2.createTrackbar('maxb', 'result', 0, 255, nothing)
+cv2.createTrackbar('maxg', 'result', 0, 255, nothing)
+cv2.createTrackbar('maxr', 'result', 0, 255, nothing)
 
 while True:
     ret,frame = cap.read()
